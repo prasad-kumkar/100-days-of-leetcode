@@ -1,0 +1,10 @@
+A Set is a generic set of values with no duplicate elements. 
+A TreeSet is a set where the elements are sorted.
+
+A HashSet is a set where the elements are not sorted or ordered. It is faster than a TreeSet. 
+The HashSet is an implementation of a Set.
+Set is a parent interface of all set classes like TreeSet, HashSet, etc.
+
+Hashmap:
+A hash table uses a hash function to compute an index, also called a hash code, 
+into an array of buckets or slots, from which the desired value can be found
