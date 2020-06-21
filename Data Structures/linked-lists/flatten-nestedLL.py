@@ -15,7 +15,7 @@ def merge(list1, list2):
     The merge() function must return an instance of LinkedList.
     '''
     res = LinkedList()
-    print(list1.head.value)
+    
     l1_node = list1.head
     l2_node = list2.head
     

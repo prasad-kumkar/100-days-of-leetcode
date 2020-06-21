@@ -8,17 +8,8 @@ class LinkedList:
     def __init__(self):
         self.head = None
         self.tail = self.head
-        
-        
-    def to_list(self):
-        out = []
-        node = self.head
-        while node:
-            out.append(node.value)
-            node = node.next
-        return out
     
-    
+
     def prepend(self, value):
         """ Prepend a value to the beginning of the list. """
         
@@ -118,3 +109,11 @@ class LinkedList:
             size+=1
             node = node.next
         return size
+
+    def to_list(self):
+        out = []
+        node = self.head
+        while node:
+            out.append(node.value)
+            node = node.next
+        return out
